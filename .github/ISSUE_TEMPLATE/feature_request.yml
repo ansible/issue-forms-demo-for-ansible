@@ -19,6 +19,10 @@ body:
   attributes:
     label: SUMMARY
     description: Describe the new feature/improvement briefly below.
+    placeholder: >-
+      I am trying to do X with ansible-core from the devel branch on GitHub and
+      I think that implementing a feature Y would be very helpful for me and
+      every other user of ansible-core because of Z.
   validations:
     required: true
 
@@ -37,6 +41,7 @@ body:
     description: >-
       Write the short name of the module, plugin, task or feature below,
       *use your best guess if unsure*.
+    placeholder: dnf, apt, yum, pip, user etc.
   validations:
     required: true
 
