@@ -23,6 +23,10 @@ body:
       Explain the problem briefly below, add suggestions to wording or structure.
 
       **HINT:** Did you know the documentation has an `Edit on GitHub` link on every page?
+    placeholder: >-
+      I was reading the ansible-core documentation of version X and I'm having
+      problems understanding Y. It would be very helpful if that got
+      rephrased as Z.
   validations:
     required: true
 
@@ -41,6 +45,7 @@ body:
     description: >-
       Write the short name of the rst file, module, plugin, task or
       feature below, *use your best guess if unsure*.
+    placeholder: docs/docsite/rst/dev_guide/debugging.rst
   validations:
     required: true
 
@@ -77,6 +82,7 @@ body:
     description: >-
       Provide all relevant information below, e.g. OS version,
       browser, etc.
+    placeholder: Fedora 33, Firefox etc.
   validations:
     required: true
 
@@ -89,6 +95,9 @@ body:
       **Tip:** It's not possible to upload the screenshot via this field directly but you can use the last textarea in this form to attach them.
 
       **HINT:** You can paste https://gist.github.com links for larger files.
+    placeholder: >-
+      When the improvement is applied, it makes it more straightforward
+      to understand X.
   validations:
     required: true
 
