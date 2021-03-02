@@ -1,12 +1,13 @@
 ---
 name: 🐛 Bug report
-about: Create a report to help us improve
+description: Create a report to help us improve
 issue_body: false  # default: true, adds a classic WSYWIG textarea, if on
 
 body:
 - type: markdown
   attributes:
     value: |
+      ⚠
       Verify first that your issue is not [already reported on GitHub][issue search].
       Also test if the latest release and devel branch are affected too.
       *Complete **all** sections as described, this form is processed automatically.*
@@ -14,7 +15,7 @@ body:
       [issue search]: https://github.com/ansible/ansible/search?q=is%3Aissue&type=issues
 
 
-- type: input
+- type: textarea
   attributes:
     label: SUMMARY
     description: Explain the problem briefly below.
@@ -53,7 +54,7 @@ body:
   validations:
     required: true
 
-- type: input
+- type: textarea
   attributes:
     label: CONFIGURATION
     description: >-
@@ -66,7 +67,7 @@ body:
   validations:
     required: true
 
-- type: input
+- type: textarea
   attributes:
     label: OS / ENVIRONMENT
     description: >-
@@ -76,7 +77,7 @@ body:
     required: true
 
 
-- type: input
+- type: textarea
   attributes:
     label: STEPS TO REPRODUCE
     description: |
@@ -91,7 +92,7 @@ body:
   validations:
     required: true
 
-- type: input
+- type: textarea
   attributes:
     label: EXPECTED RESULTS
     description: >-
@@ -99,7 +100,7 @@ body:
   validations:
     required: true
 
-- type: input
+- type: textarea
   attributes:
     label: ACTUAL RESULTS
     description: |
