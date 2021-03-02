@@ -19,6 +19,10 @@ body:
   attributes:
     label: SUMMARY
     description: Explain the problem briefly below.
+    placeholder: >-
+      When I try to do X with ansible-core from the devel branch on GitHub, Y
+      breaks in a way Z under the env E. Here are all the details I know
+      about this problem...
   validations:
     required: true
 
@@ -37,6 +41,7 @@ body:
     description: >-
       Write the short name of the module, plugin, task or feature below,
       *use your best guess if unsure*.
+    placeholder: dnf, apt, yum, pip, user etc.
   validations:
     required: true
 
@@ -73,6 +78,7 @@ body:
     description: >-
       Provide all relevant information below, e.g. target OS versions,
       network device firmware, etc.
+    placeholder: RHEL 8, CentOS Stream etc.
   validations:
     required: true
 
@@ -97,6 +103,9 @@ body:
     label: EXPECTED RESULTS
     description: >-
       Describe what you expected to happen when running the steps above.
+    placeholder: >-
+      I expected X to happen because I assumed Y and was shocked
+      that it did not.
   validations:
     required: true
 
