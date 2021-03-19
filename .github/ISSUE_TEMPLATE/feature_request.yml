@@ -71,4 +71,13 @@ body:
     options:
     - label: I agree to follow the Ansible Code of Conduct
       required: true
+
+- type: markdown
+  attributes:
+    value: |
+      ##### Checklist thing before you submit...
+
+      * [ ] Do X
+            * [ ] Do Z
+      * [ ] Do Y
 ...
