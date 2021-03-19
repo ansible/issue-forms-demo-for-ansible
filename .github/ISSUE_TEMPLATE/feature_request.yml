@@ -78,6 +78,6 @@ body:
       ##### Checklist thing before you submit...
 
       * [ ] Do X
-            * [ ] Do Z
+        * [ ] Do Z
       * [ ] Do Y
 ...
