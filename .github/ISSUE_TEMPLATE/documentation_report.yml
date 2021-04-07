@@ -121,7 +121,8 @@ body:
     description: >-
       Paste verbatim output from `ansible-config dump --only-changed`
       below, under the prompt line.
-      Please don't wrap it with tripple backticks.
+      Please don't wrap it with tripple backticks — your
+      whole input will be turned into a code snippet automatically.
     render: console
     value: |
       $ ansible-config dump --only-changed
