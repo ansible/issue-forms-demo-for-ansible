@@ -82,10 +82,13 @@ body:
       with ansible-core as it currently stands?
 
 
-      * Provide examples of real world use cases that this would enable
+      * Provide examples of real-world use cases that this would enable
       and how it solves the problem you described.
+
       * How do you solve this now?
-      * Have you tried to workaround the problem using other tools?
+
+      * Have you tried to work around the problem using other tools?
+
       * Could there be a different approach to solving this issue?
 
 
