@@ -18,15 +18,9 @@ body:
 
       Also test if the latest release and devel branch are affected too.
 
-      *Complete **all** sections as described, this form is processed
-      automatically.*
-
 
       **Tip:** If you are seeking community support, please consider
       [starting a mailing list thread or chatting in IRC][ML||IRC].
-
-
-      Thank you for your collaboration!
 
 
 
@@ -52,6 +46,22 @@ body:
 - type: dropdown
   attributes:
     label: Issue Type
+    description: >
+      Please select the single available option in the drop-down.
+
+      <details>
+        <summary>
+          <em>Why?</em>
+        </summary>
+
+        We would do it by ourselves but unfortunatelly, the curent
+        edition of GitHub Issue Forms Alpha does not support this yet 🤷
+
+
+        _We will make it easier in the future, once GitHub
+        supports dropdown defaults. Promise!_
+
+      </details>
     # FIXME: Once GitHub allows defining the default choice, update this
     options:
     - Bug Report
@@ -221,6 +231,23 @@ body:
       ERROR: Command "docker exec d47eb360db4ce779c1f690db964655b76e68895c4360ff252c46fe7fe6f5c75a /usr/bin/env ANSIBLE_TEST_CONTENT_ROOT=/root/ansible_collections/netapp/ontap LC_ALL=en_US.UTF-8 /usr/bin/python3.6 /root/ansible/bin/ansible-test units --metadata tests/output/.tmp/metadata-9i2qfrcl.json --truncate 200 --redact --color yes --requirements --python default --requirements-mode only" returned exit status 1.
   validations:
     required: true
+
+
+- type: markdown
+  attributes:
+    value: >
+      *One last thing...*
+
+
+      *Please, complete **all** sections as described, this form
+      is [processed automatically by a robot][ansibot help].*
+
+
+      Thank you for your collaboration!
+
+
+      [ansibot help]:
+      /ansible/ansibullbot/blob/master/ISSUE_HELP.md#for-issue-submitters
 
 
 - type: checkboxes
