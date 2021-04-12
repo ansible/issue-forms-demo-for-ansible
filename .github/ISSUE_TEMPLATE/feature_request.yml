@@ -43,15 +43,9 @@ body:
 
       Also test if the devel branch does not already implement this.
 
-      *Complete **all** sections as described, this form is processed
-      automatically.*
-
 
       **Tip:** If you are seeking community support, please consider
       [starting a mailing list thread or chatting in IRC][ML||IRC].
-
-
-      Thank you for your collaboration!
 
 
 
@@ -107,6 +101,22 @@ body:
 - type: dropdown
   attributes:
     label: Issue Type
+    description: >
+      Please select the single available option in the drop-down.
+
+      <details>
+        <summary>
+          <em>Why?</em>
+        </summary>
+
+        We would do it by ourselves but unfortunatelly, the curent
+        edition of GitHub Issue Forms Alpha does not support this yet 🤷
+
+
+        _We will make it easier in the future, once GitHub
+        supports dropdown defaults. Promise!_
+
+      </details>
     # FIXME: Once GitHub allows defining the default choice, update this
     options:
     - Feature Idea
@@ -121,7 +131,7 @@ body:
       *use your best guess if unsure*.
 
 
-      Beware that a lot of content that used to reside in this repository
+      Be aware that a lot of content that used to reside in this repository
       previously, is now hosted under [individual collection
       projects][collections org].
       If this is the case, please make sure to file an issue under the
@@ -150,6 +160,23 @@ body:
       advised me to do X, Y and Z.
   validations:
     required: true
+
+
+- type: markdown
+  attributes:
+    value: >
+      *One last thing...*
+
+
+      *Please, complete **all** sections as described, this form
+      is [processed automatically by a robot][ansibot help].*
+
+
+      Thank you for your collaboration!
+
+
+      [ansibot help]:
+      /ansible/ansibullbot/blob/master/ISSUE_HELP.md#for-issue-submitters
 
 
 - type: checkboxes
