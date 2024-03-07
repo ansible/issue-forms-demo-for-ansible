@@ -1,1 +1,1 @@
-../PULL_REQUEST_TEMPLATE.md
+Unclear purpose or motivation.md
